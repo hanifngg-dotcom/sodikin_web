@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Sodikin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Sodikin</a>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <p class="eyebrow">Halo, saya</p>
+        <h1>Sodikin</h1>
+        <p>Saya membuat website, aplikasi, dan brand personal yang siap membantu bisnis Anda tampil profesional secara online.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Hubungi Saya</a>
+          <a class="button secondary" href="#projects">Lihat Proyek</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split-grid">
+        <div>
+          <h2>Tentang Saya</h2>
+          <p>Saya seorang pengembang web yang berfokus pada pembuatan portofolio, website bisnis, dan aplikasi interaktif. Saya memadukan desain bersih dengan implementasi fungsional sehingga hasilnya mudah digunakan dan menarik.</p>
+          <ul class="stats-list">
+            <li>
+              <strong>3+</strong>
+              <span>Tahun pengalaman</span>
+            </li>
+            <li>
+              <strong>10+</strong>
+              <span>Proyek selesai</span>
+            </li>
+            <li>
+              <strong>Responsive</strong>
+              <span>Desain modern</span>
+            </li>
+          </ul>
+        </div>
+        <div class="card about-card">
+          <h3>Kemampuan Utama</h3>
+          <p>Website ini sudah siap digunakan sebagai halaman portfolio. Fitur yang tersedia termasuk navigasi responsif, mode gelap, portofolio proyek, dan form kontak sederhana.</p>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Desain responsif</li>
+            <li>Dark mode otomatis</li>
+            <li>Form kontak dengan email</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Proyek Saya</h2>
+          <p>Contoh hasil pekerjaan yang dapat Anda gunakan sebagai referensi.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Website Komunitas</h3>
+            <p>Membangun halaman komunitas dengan profil anggota, artikel, dan tata letak responsif.</p>
+            <span class="tag">Web</span>
+          </article>
+          <article class="project-card">
+            <h3>Landing Page Produk</h3>
+            <p>Desain landing page untuk promosi produk dengan ajakan bertindak yang kuat.</p>
+            <span class="tag">Design</span>
+          </article>
+          <article class="project-card">
+            <h3>Portfolio Personal</h3>
+            <p>Website portfolio yang menampilkan pengalaman, layanan, dan kontak profesional.</p>
+            <span class="tag">Portfolio</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container split-grid reverse-grid">
+        <div class="contact-info">
+          <h2>Mulai Proyek Baru</h2>
+          <p>Isi formulir di bawah ini atau kirim email langsung untuk mendiskusikan kebutuhan website dan portofolio Anda.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:sodikin@example.com">sodikin@example.com</a></li>
+            <li><strong>Telepon:</strong> <a href="tel:+628123456789">+62 812 3456 789</a></li>
+            <li><strong>Lokasi:</strong> Indonesia</li>
+          </ul>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label>
+            Nama
+            <input type="text" name="name" placeholder="Nama lengkap" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="email@domain.com" required />
+          </label>
+          <label>
+            Pesan
+            <textarea name="message" rows="5" placeholder="Apa yang ingin Anda buat?" required></textarea>
+          </label>
+          <button class="button primary" type="submit">Kirim Pesan</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Sodikin. Website portfolio siap digunakan.</p>
+      <p>Built with HTML, CSS, dan JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
